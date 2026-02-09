@@ -17,7 +17,7 @@ Deno.serve(async (req) => {
       Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!
     );
 
-    const adminEmail = "464806@extrabom.local";
+    const adminEmail = "484606@extrabom.local";
     const adminPassword = "18041993";
 
     // Check if admin already exists
@@ -52,7 +52,7 @@ Deno.serve(async (req) => {
         .from("profiles")
         .insert({
           id: userId,
-          numeric_login: "464806",
+          numeric_login: "484606",
         });
 
       if (profileError) {
