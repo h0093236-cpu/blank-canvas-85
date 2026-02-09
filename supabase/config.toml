@@ -1,0 +1,10 @@
+project_id = "uvhvwipbdjcdxmaxpyrx"
+
+[functions.seed-admin]
+verify_jwt = false
+
+[functions.manage-users]
+verify_jwt = false
+
+[functions.backup-user]
+verify_jwt = false
