@@ -18,7 +18,7 @@ Deno.serve(async (req) => {
     );
 
     const adminEmail = "484606@extrabom.local";
-    const adminPassword = "484606";
+    const adminPassword = "123456";
 
     // Check if admin already exists
     const { data: existingUsers } = await supabaseAdmin.auth.admin.listUsers();
